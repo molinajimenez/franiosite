@@ -20,7 +20,7 @@ export default function Blog() {
 
   useEffect(()=>{
     onOpen()
-  },[])
+  },[onOpen])
 
   return (
     <div className={styles.container}>

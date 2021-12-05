@@ -1,6 +1,7 @@
 import { Heading, Text } from '@chakra-ui/layout';
 import Image from 'next/image';
 const Intro = () => {
+    const intro = "Hello! I'm Francisco, a computer scientist who enjoys learning new things!";
     return (
         <>
 
@@ -13,7 +14,7 @@ const Intro = () => {
             <Text pt="0.3rem" color="gray" as="h3" fontSize={{ base: "xl", md: "2xl", lg: "2xl" }}>Computer Scientist</Text>
             <Text pt="0.3rem" color="gray" as="h3" fontSize={{ base: "xl", md: "2xl", lg: "2xl" }}>Personal website</Text>
             <Text pt="1.3rem" color="black" as="h3" fontSize={{ base: "xl", md: "2xl", lg: "2xl" }}>Hola 🇬🇹, Hello 🇺🇸, Hallo 🇩🇪, Cześć 🇵🇱, Zdravo! 🇷🇸</Text>
-            <Text pt="1.3rem" color="black" as="h3" fontSize={{ base: "xl", md: "xl", lg: "3xl" }}>Hello! I'm Francisco, a computer scientist who enjoys learning new things!</Text>
+            <Text pt="1.3rem" color="black" as="h3" fontSize={{ base: "xl", md: "xl", lg: "3xl" }}>{intro}</Text>
 
         </>
     )
