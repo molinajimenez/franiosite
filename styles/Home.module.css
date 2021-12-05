@@ -143,3 +143,14 @@
     flex-direction: column;
   }
 }
+.navLink:hover {
+  border-bottom: 2px solid #EBE645;
+}
+.navLink{
+  position: relative;
+  text-decoration: none;
+}
+.navLink::before {
+  border-bottom: 0px;
+  transition: border-bottom 0.6s ease;
+}

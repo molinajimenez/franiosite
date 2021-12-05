@@ -1,4 +1,4 @@
-import { Image } from "@chakra-ui/image"
+import Image from "next/image"
 import {SimpleGrid } from "@chakra-ui/layout"
 import styles from '../styles/Home.module.css'
 const Techs = () => {

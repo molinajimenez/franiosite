@@ -9,7 +9,7 @@ import {
 
 import Link from "next/link";
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-
+import styles from '../styles/Home.module.css'
 
 const NavBar = (props) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -44,19 +44,19 @@ const NavBar = (props) => {
                 spacing='2rem'
             >
                 <Link href='/'>
-                    <a>Resume</a>
+                    <a className={styles.navLink}>Resume</a>
                 </Link>
 
-                <Link href='/'>
-                    <a>About me</a>
+                <Link href='/about'>
+                    <a className={styles.navLink}>About me</a>
                 </Link>
 
-                <Link href='/'>
-                    <a>Contact</a>
+                <Link href='/contact'>
+                    <a className={styles.navLink}>Contact</a>
                 </Link>
 
-                <Link href='/'>
-                    <a>Blog</a>
+                <Link href='/blog'>
+                    <a className={styles.navLink}>Blog</a>
                 </Link>
 
             </Stack>

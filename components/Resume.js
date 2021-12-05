@@ -4,7 +4,7 @@ import { Text } from "@chakra-ui/react"
 import { Chrono } from "react-chrono";
 import styles from '../styles/Home.module.css'
 
-const Resume = props => {
+const Resume = () => {
     const exp = [
         {
             title: "Sept. 2021",
@@ -87,8 +87,8 @@ const Resume = props => {
 
 
             <SimpleGrid
-                columns={{"xl":4, "base": 1}}
-                spacing={{"xl":2, "base": 10}}
+                columns={{ "xl": 4, "base": 1 }}
+                spacing={{ "xl": 2, "base": 10 }}
             >
                 <GridItem className={styles.card} p="1.2rem">
                     <Center>

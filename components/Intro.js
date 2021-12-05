@@ -1,13 +1,12 @@
-import { Heading, Text, Flex, Box, Spacer } from '@chakra-ui/layout';
+import { Heading, Text } from '@chakra-ui/layout';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css'
 const Intro = () => {
     return (
         <>
 
-            <div className={styles.cardShadow}>
-                <Image src="/me.jpg" width="300px" height="300px" alt="a picture of Francisco Molina" />
-            </div>
+
+            <Image src="/cv_picture.PNG" width="280px" height="300px" alt="a picture of Francisco Molina" />
+
             <Heading as="h1" justifyContent="center" mt='1.5rem' fontSize={{ base: "4xl", md: "4xl", lg: "6xl" }} letterSpacing={"tighter"} >
                 Francisco Molina
             </Heading>
